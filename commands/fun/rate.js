@@ -13,7 +13,7 @@ module.exports = {
 		for(const char of message.content.split('')) {
 			if(char.charCodeAt() > 65 && char.charCodeAt() < 90) {
 				rated++;
-				rating += (char.charCodeAt() - 70);
+				rating += (charr.charCodeAt() - 70);
 			} else if(char.charCodeAt() > 97 && char.charCodeAt() < 122) {
 				rated++;
 				rating += (char.charCodeAt() - 102);
